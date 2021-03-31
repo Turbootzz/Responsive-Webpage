@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Responsive</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h2>Thijs Herman</h2>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="http://turboot.com">Turboot.com</a></li>
+                <li><a href="https://discordapp.com/api/oauth2/authorize?client_id=653220332454412288&permissions=8&scope=bot">Discord Bot</a></li>
+                <li><a href="https://github.com/Turbootzz">Github</a></li>
+              </ul>
+        </nav>
+            <article>
+                <h3>Responsive Website</h3>
+                <p>This is my responsive website. On the left hand side you can go to the navigation and click one of the URL's</p>
+                <p>This page is made in 2021 by Thijs Herman as an assignment for school (GLU)</p>
+            </article>
+        <footer>
+            <h5>Copyright © 2021 Thijs Herman</h5>
+        </footer>
+    </div>
+    <script>
+        //wnr de venster wordt geschaald
+        window.onresize = function() {
+            //haalt de hoogte van de article element
+            var article=document.getElementsByTagName("article")[0].offsetHeight;
+            //zet dezelfde hoogte van article bij de nav
+            document.getElementsByTagName("nav")[0].style.height=article+"px";
+
+            //kijkt of scherm hoogte gelijk is aan 500px of hoger
+            if(window.innerWidth >= 500);
+        }
+    </script>
+</body>
+</html>
