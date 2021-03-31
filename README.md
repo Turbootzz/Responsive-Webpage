@@ -1,3 +1,3 @@
 # Responsive Webpage
- This is an example of a basic responsive webpage.
- It was intended for myself but if you want to use it feel free to use this code.
+ This is my first responsive webpage. I use this as an example for my other projects.
+ It was intended for myself but if you want to use it feel free to use this code (It's not perfect but it works ;) !).
